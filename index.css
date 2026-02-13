@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* npx tailwindcss -i ./index.css -o ./output.css --watch */
+/* npx tailwindcss -i ./wiki.css -o ./wikioutput.css --watch */
+/* npx tailwindcss -i ./login.css -o ./loginoutput.css --watch */
